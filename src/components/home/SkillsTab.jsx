@@ -9,7 +9,6 @@ function SkillsSection({ skills, isScrolled }) {
         <SkillsBar
           key={`${skill}-${index}`}
           skill={skill.name}
-          value={skill.value}
           isScrolled={isScrolled}
         />
       ))}
