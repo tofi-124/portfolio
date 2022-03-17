@@ -2,8 +2,7 @@
 
 ### A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
 
-[https://agile-sea-54288.herokuapp.com]: LIVE DEMO 
-#### [LIVE DEMO ](https://agile-sea-54288.herokuapp.com)
+#### [Click Here for LIVE DEMO ](https://agile-sea-54288.herokuapp.com)
  
 **Tech-Stack Used:**  
 
