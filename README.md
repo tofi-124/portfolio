@@ -1,6 +1,6 @@
 ## Portfolio Website
 
-### A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
+### A personal static website/portfolio template hosted on heroku, built to showcase my recent projects.
 
 #### [Click Here for LIVE DEMO ](https://agile-sea-54288.herokuapp.com)
  
