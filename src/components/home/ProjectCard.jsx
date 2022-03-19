@@ -20,7 +20,7 @@ const ProjectCard = ({ value, image }) => {
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
 
-          <img src={image} style={{ width: "100%", height: "300px", objectFit: "cover" }} alt={name} />
+          <img src={image} style={{ width: "480px", height: "254px", objectFit: "cover" }} alt={name} />
           <hr />
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />

@@ -70,7 +70,7 @@ const Project = ({ heading, username, length, specfic }) => {
     require('../../assets/repo-images/2.PNG'),
     require('../../assets/repo-images/4.gif'),
     require('../../assets/repo-images/1.gif'),
-    require('../../assets/repo-images/3.png'),
+    require('../../assets/repo-images/3.gif'),
   ];
 
   return (
