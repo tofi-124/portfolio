@@ -105,8 +105,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm seeking for full-stack web development opportunities right now! Please write me at if you know of any open openings, if you have any questions, or if you simply want to say hello.",
-  email: "tofik.a.moh1999@gmail.com",
+    "I'm seeking for full-stack web development opportunities right now! Please write me at if you know of any open openings, if you have any websites you want me to build, or if you simply want to say hello.",
+  email: "tofik@tofweb.services",
 };
 
 const experiences = {
