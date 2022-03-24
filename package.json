@@ -4,16 +4,18 @@
   "version": "2.0.0",
   "private": true,
   "engines": {
-    "node":"v14.19.0"
+    "node": "v14.19.0"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
     "gh": "^2.8.9",
     "gh-pages": "^2.2.0",
+    "global": "^4.4.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "npm": "^8.5.4",
+    "nvm": "0.0.4",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.0",
