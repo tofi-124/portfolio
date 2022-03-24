@@ -9,7 +9,8 @@ const mainBody = {
   firstName: "Tofik",
   middleName: "",
   lastName: "Mohammed",
-  message: " “Sometimes the idea behind a program is one small creative effort.” Dan Bricklin",
+  message:
+    " “Sometimes the idea behind a program is one small creative effort.” Dan Bricklin",
   icons: [
     {
       image: "fa-github",
@@ -36,7 +37,7 @@ const about = {
   imageLink: require("../editable-stuff/tofikmohammed.jpg"),
   imageSize: 375,
   message:
-    "I am a professional Full Stack Web Developer with expertise in a variety of platforms and languages, including HTML and Javascript, CSS, and frameworks such as React and Node, as well as SQL and PSQL. In addition, a dedicated programmer with a curious mind and strong problem-solving abilities, as well as demonstrated collaboration, communication, and interpersonal skills.",
+    "I am a professional Full Stack Web Developer based in Toronto with expertise in a variety of platforms and languages, including HTML, Javascript and CSS, as well as frameworks such as React, Angular, and Ruby also considerable experience in SQL/PSQL. In addition, I am a dedicated programmer with a curious mind and strong problem-solving abilities with demonstrated collaboration, communication, and interpersonal skills.",
   resume: "https://resume.io/r/jRVeXqn0J",
 };
 
