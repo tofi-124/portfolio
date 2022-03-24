@@ -2,6 +2,7 @@ import React from "react";
 
 import axios from "axios";
 
+import pdf from "../docs/Resume.pdf";
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
@@ -53,8 +54,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               <p className="lead text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
-                  href={resume}
+                  href={pdf}
                   target="_blank"
+                  type="application/pdf"
                   rel="noreferrer noopener"
                   role="button"
                   aria-label="Resume/CV"
