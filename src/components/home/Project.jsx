@@ -14,8 +14,6 @@ const dummyProject = {
   pushed_at: null,
 };
 const API = "https://api.github.com";
-// const gitHubQuery = "/repos?sort=updated&direction=desc";
-// const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
 const Project = ({ heading, username, length, specfic }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
@@ -32,15 +30,17 @@ const Project = ({ heading, username, length, specfic }) => {
       // getting all repos
       const response = await axios.get(allReposAPI);
       // slicing to the length
-      response.data.every(repo => {
-        if (repo.name === "tweeter" ||
+      response.data.every((repo) => {
+        if (
           repo.name === "Resource-Wall" ||
+          repo.name === "scheduler" ||
+          repo.name === "tweeter" ||
           repo.name === "tinyapp" ||
-          repo.name === "scheduler"
+          repo.name === "jungle-rails"
         ) {
           repoList.push(repo);
         }
-        if (repoList.length === 4) {
+        if (repoList.length === 5) {
           return false;
         } else {
           return true;
@@ -67,10 +67,11 @@ const Project = ({ heading, username, length, specfic }) => {
     fetchRepos();
   }, [fetchRepos]);
   const images = [
-    require('../../assets/repo-images/2.PNG'),
-    require('../../assets/repo-images/4.png'),
-    require('../../assets/repo-images/1.gif'),
-    require('../../assets/repo-images/3.gif'),
+    require("../../assets/repo-images/2.PNG"),
+    require("../../assets/repo-images/5.png"),
+    require("../../assets/repo-images/4.png"),
+    require("../../assets/repo-images/1.gif"),
+    require("../../assets/repo-images/3.gif"),
   ];
 
   return (
@@ -80,20 +81,20 @@ const Project = ({ heading, username, length, specfic }) => {
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
-              <ProjectCard
-                key={`project-card-${index}`}
-                id={`project-card-${index}`}
-                value={project}
-                image={images[index]}
-              />
-            ))
+                <ProjectCard
+                  key={`project-card-${index}`}
+                  id={`project-card-${index}`}
+                  value={project}
+                  image={images[index]}
+                />
+              ))
             : dummyProjectsArr.map((project, index) => (
-              <ProjectCard
-                key={`dummy-${index}`}
-                id={`dummy-${index}`}
-                value={project}
-              />
-            ))}
+                <ProjectCard
+                  key={`dummy-${index}`}
+                  id={`dummy-${index}`}
+                  value={project}
+                />
+              ))}
         </Row>
       </Container>
     </Jumbotron>
